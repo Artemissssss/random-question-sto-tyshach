@@ -36,17 +36,19 @@ function o() {
         document.getElementsByClassName("questions")[i].textContent = (i + 1) + ". " + y;
         document.getElementsByClassName("questions")[i].id = quest.indexOf(y)
     }
+    let l = 1;
     document.getElementById("question").classList.toggle("ap");
     if (r == 0) {
         r++;
     } else {
         r--;
         act--;
+        l=1;
     }
     setTimeout(() => {
         act++;
     }, 120 * 1000)
-    let l = 1;
+    
     for (let g = 120; g >= 0; g -= 1) {
         setTimeout(() => {
             if (g <= 20) {
@@ -59,6 +61,7 @@ function o() {
             document.getElementById("time").textContent = `${Math.floor(g/60)}:${Math.round((g/60-Math.floor(g/60))*60)}`
         }, l * 1000)
         l += 1;
+        
     }
 }
 document.getElementById("cross").addEventListener("click", () => {
