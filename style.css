@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nokora:wght@100;300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+.make-q{
+    font-family: 'Nokora', sans-serif;
+    width: 300px;
+    height: 300px;
+    border: none;
+    border-radius: 50%;
+    background: rgb(45, 167, 238);
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 1s;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+#question{
+width: 93%;
+margin: 25% auto;
+transition: 1s;
+font-family: 'Nokora', sans-serif;
+display: none;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    transition: 1s;
+    color: rgb(45, 167, 238);
+}
+#question-list{
+font-size: 20px;
+transition: 1s;
+margin-top: 20px;
+}
+.submit{
+    background-color: rgb(45, 167, 238);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    font-size: 30px;
+    margin-top: 40px;
+    transition: 1s;
+    transition: 1s;
+}
+
+.questions{
+    margin-bottom: 10px;
+    transition: 1s;
+}
+.ap{
+    display: block !important;
+}
+.dis{
+    display: none;
+}
+#ans{
+    display: none;
+    width: 300px;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    height: 250px;
+    background: rgba(41, 151, 214, 0.999);
+    border: 5px solid rgb(194, 194, 194);
+    border-radius: 10px;
+    font-family: 'Nokora', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    z-index: 3;
+    transition: 1s;
+}
+#cross{
+color: white;
+font-size: 40px;
+background: rgba(29, 29, 29, 0.767);
+width: 50px;
+height: 50px;
+text-align: center;
+border-radius: 50%;
+font-family: 'Nokora', sans-serif;
+font-weight: 500;
+position: absolute;
+bottom: 0;
+left: 50%;
+transform: translate(-50%,-5%);
+display: none;
+}
