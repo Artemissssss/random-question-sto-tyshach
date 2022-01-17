@@ -45,7 +45,7 @@ function o() {
     }
     setTimeout(() => {
         act++;
-    }, 30 * 1000)
+    }, 120 * 1000)
     let l = 1;
     for (let g = 120; g >= 0; g -= 1) {
         setTimeout(() => {
